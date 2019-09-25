@@ -1,0 +1,92 @@
+body {
+    font: 'Open Sans';
+}
+
+.row {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.space {
+    /* margin: 1em; */
+    /* border-radius: 50%; */
+    border: 3px solid #f3b054;
+}
+
+p {
+    margin: 1em;
+    border-radius: 50%;
+    border: #f3b054;
+    background-color: tomato;
+}
+
+.selected {
+    background-color: purple;
+}
+
+.p1Taken {
+   background-color: #BADA55; 
+}
+
+.p2Taken {
+   background-color: red;
+}
+
+p {
+    padding: 1em;
+    border: 1px solid black;
+}
+
+/* Overlay */
+
+#overlay {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    color: #BADA55;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    z-index: 100;
+  }
+
+  #title {
+      text-align: center;
+  }
+
+  .start {
+    background-color: #3a3f58;
+  }
+
+  button {
+    margin: 6px;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    color: #BADA55;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    cursor: pointer;
+  }
+
+  #btn__reset {
+	width: 200px;
+	margin: 0 auto;
+}
+
+body.noScroll { /* ...or body.dialogShowing */
+    overflow: hidden;
+  }
+
+#container {
+    padding: 5em;
+    margin: auto;
+    text-align: center;
+}
